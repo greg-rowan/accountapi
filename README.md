@@ -44,3 +44,29 @@ Content-type: application/json
 	"created_on": "2019-02-26T14:10:25.893+0000",
 	"last_login": "2019-02-26T14:10:25.893+0000"
 }
+
+GET
+
+http://localhost:9001/accounts
+
+GET by id
+
+http://localhost:9001/accounts/123
+
+PUT 
+
+http://localhost:9001/accounts
+Content-type: application/json
+
+{
+	"user_id": 123,
+	"username": "Gregory",
+	"password": "qwerty",
+	"email": "greg@gmail.com",
+	"created_on": "2019-02-26T14:10:25.893+0000",
+	"last_login": "2019-02-26T14:10:25.893+0000"
+}
+
+DELETE
+
+http://localhost:9001/accounts/123
