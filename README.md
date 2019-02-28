@@ -8,8 +8,13 @@ Using initialization script to create some tables (DDL) and some test data (DML)
 !When you stop docker instance, any data changes will be lost!
 
 ### docker commands
+#### start instance
 	docker-compose -f docker-compose.yml  up 
 
 	or
 
 	docker-compose up -d (where yml file is in same dir.)
+
+#### stop instance
+	docker-compose down
+
